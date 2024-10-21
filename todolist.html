@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List App</title>
+    <title>Advanced To-Do List</title>
     <link rel="stylesheet" href="todolist.css">
 </head>
 <body>
-    <h1>To-Do List App</h1>
+    <h1>Advanced To-Do List with Timer</h1>
     <input type="text" id="task-input" placeholder="Add new task">
+    <input type="date" id="deadline-input">
     <button id="add-task-btn">Add Task</button>
+
+    <h2>Active Tasks</h2>
     <ul id="task-list"></ul>
+
+    <h2>Finished Tasks</h2>
+    <ul id="finished-task-list"></ul>
+
     <script src="todolist.js"></script>
 </body>
 </html>
